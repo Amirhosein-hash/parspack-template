@@ -1,0 +1,220 @@
+@import url(http://awebfont.ir/css?id=1116&mode=wl);
+@font-face{
+    font-family:'yekan';
+    src: ulr('D:/html/Import Fonts/Lalezar.ttf') format('truetype');
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'B yekan',tahoma;
+    font-weight: normal;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+/*هدر سایت*/
+.hedear{
+    margin:0 auto;
+    width: 1200px;height:100px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.hedear .right{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style-type:none;
+    display:flex;
+}
+.menu-list{
+    margin-right:30;
+    padding:2px 10;
+}
+.menu-list a{
+    text-decoration: none;
+    
+    color: #999;
+ }
+
+.hedear .left{
+    display: flex;
+    align-items:center;
+}
+
+.hedear .left a{
+    margin: 10px;
+    text-decoration: none;
+}
+.login{
+    padding:0px 15px;
+    height:35px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    color:white;
+    background-color:#288ed9;
+    border: 2px solid #288ed9 ;
+}
+.login:hover{
+    color: #288ed9;
+    background-color: white;
+    transition:all 0.5s;
+}
+
+/*معرفی سایت*/
+.container1 {
+    height: 100vh;
+    display: flex;
+    width:1200px;
+    margin:0 auto 0 auto;
+}
+.container1 .right{
+    width: 40%;
+}
+.title{
+    margin: 145px 0 15px 0;
+    color: #288ed9;
+}
+.container1 .left{
+    width: 60%;
+}
+.desc{
+    color: #666;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 1.15rem;
+}
+
+/*باکس های هاست ابری*/
+.container2{
+    height:650px;
+    width: 1200px;
+    margin:75px auto 0;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+
+}
+
+.title-container2{
+    padding-top: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.title-container2 h2{
+    align-self:flex-end ;
+    font-size: 35px;
+}
+.container2 ul{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 82%;
+}
+.container2 li{
+    list-style-type: none;
+    width: 265px;
+    padding: 17px 14px 32px 14px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    text-align: justify;
+    color: #666;
+    line-height: 24px;
+    display: flex;
+    position: relative;
+}
+.container2 li p{
+    background-color: #288ed9;
+    position: absolute;
+    font-size: 22px;
+    top:-22;
+    text-align: center;
+    padding: 5px 8px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+}
+/*انواع هاست*/
+.host{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-flow:wrap ;
+}
+.moarrefi-host{
+    display: flex;
+}
+
+/*1معرفی سایت*/
+.moarrefi-host .right1{
+    width: 50%;
+    padding-top: 75px;
+    color:#b3b3b3;
+}
+/*1لوگو سایت*/
+.moarrefi-host .left1{
+    display: flex;
+    width: 50%;
+    padding-right: 90px;
+}
+.moarrefi-host .left1 img{
+    width: 500px;
+}
+ 
+
+/*2معرفی سایت*/
+.moarrefi-host .left2{
+    width: 50%;
+    padding-top: 150px;
+    color:#b3b3b3;
+}
+/*2لوگو سایت*/
+.moarrefi-host .right2{
+    display: flex;
+    width: 50%;
+    padding-left: 90px;
+}
+.moarrefi-host .right2 img{
+    height:500px;
+}
+
+hr{
+    width: 1200px;
+    margin: auto;
+}
+.footer{
+    display:flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.social i a{
+    color: #999;
+    font-size: 25px;
+    margin: 12px;
+}
+.social i a:hover{
+    color: #288ed9;
+    transition: all 0.4s;
+}
+
+.footer p{
+    font-size: 20px;
+    color:#999 ;
+}
